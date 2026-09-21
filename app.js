@@ -1,3 +1,4 @@
+// Segment navigation, copy/shot views, and reference-image preview.
 (function () {
   "use strict";
 
