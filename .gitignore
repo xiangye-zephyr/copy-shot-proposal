@@ -1,4 +1,7 @@
+# macOS metadata
 .DS_Store
+
+# Local dependencies and environment settings
 node_modules/
 .env
 .env.*
