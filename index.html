@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HOKA FLYRUN 21段文字稿、镜头素材与来源的本地互动汇报中控台"
+    />
+    <title>HOKA FLYRUN｜文案镜头提案台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-mode="copy">
+    <div class="console-app" id="app">
+      <header class="topbar">
+        <div class="brand-lockup" aria-label="HOKA FLYRUN 文案镜头提案台">
+          <span class="brand-code">[ HOKA / FLYRUN ]</span>
+          <h1>文案镜头提案台</h1>
+        </div>
+
+        <div class="project-readout" aria-label="项目概况">
+          <span>21 SEGMENTS</span>
+          <span>VERIFIED 2026.08.24</span>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="mode-switch" role="group" aria-label="显示模式">
+            <button type="button" class="mode-button" data-mode-button="copy">
+              [ 文案 ]
+            </button>
+            <button type="button" class="mode-button" data-mode-button="shot">
+              [ 镜头 ]
+            </button>
+          </div>
+          <button type="button" class="icon-button" id="overviewButton">
+            [ 总览 ]
+          </button>
+          <button type="button" class="icon-button" id="fullscreenButton">
+            [ 全屏 ]
+          </button>
+        </div>
+      </header>
+
+      <main class="console-grid">
+        <aside class="segment-rail" aria-label="21段文字稿导航">
+          <div class="rail-heading">
+            <span>SEGMENT INDEX</span>
+            <span id="railCount">01 / 21</span>
+          </div>
+          <nav id="segmentNavigation"></nav>
+        </aside>
+
+        <section class="stage" id="stage" data-screen-label="逐段文案">
+          <div class="stage-heading">
+            <div class="segment-identity">
+              <span class="segment-code" id="segmentCode">SEG / 01</span>
+              <span class="chapter-name" id="chapterName">品牌反差</span>
+            </div>
+            <time class="timecode" id="timecode">00:00–00:08</time>
+          </div>
+
+          <section class="copy-board" id="copyBoard" aria-label="21段定稿文案总览"></section>
+
+          <article class="script-panel" aria-labelledby="scriptLabel">
+            <div class="panel-label" id="scriptLabel">[ 定稿文字稿 ]</div>
+            <blockquote id="scriptText"></blockquote>
+            <div class="script-corner" aria-hidden="true">01</div>
+          </article>
+
+          <section class="shot-panel" aria-labelledby="shotLabel">
+            <div class="shot-panel-heading">
+              <div class="panel-label" id="shotLabel">[ 镜头序列 ]</div>
+              <div class="shot-key" id="shotKey">A 主选&nbsp;&nbsp;/&nbsp;&nbsp;B 备选</div>
+            </div>
+            <div class="shot-sequence" id="shotSequence" data-count="2">
+              <button type="button" class="shot-card" data-shot="main">
+                <img id="mainImage" alt="主选镜头预览" />
+                <span class="shot-index">A / MAIN</span>
+                <span class="shot-caption" id="mainCaption"></span>
+              </button>
+
+              <div class="sequence-arrow" aria-hidden="true">
+                <span></span>
+                <b>&gt;</b>
+              </div>
+
+              <button type="button" class="shot-card" data-shot="alternate">
+                <img id="alternateImage" alt="备选镜头预览" />
+                <span class="shot-index">B / ALT</span>
+                <span class="shot-caption" id="alternateCaption"></span>
+              </button>
+
+              <div class="sequence-arrow tertiary-shot" aria-hidden="true" hidden>
+                <span></span>
+                <b>&gt;</b>
+              </div>
+
+              <button type="button" class="shot-card tertiary-shot" data-shot="tertiary" hidden>
+                <img id="tertiaryImage" alt="第三镜头预览" />
+                <span class="shot-index">C / ADD</span>
+                <span class="shot-caption" id="tertiaryCaption"></span>
+              </button>
+            </div>
+          </section>
+
+          <section class="cue-strip" aria-labelledby="cueLabel">
+            <span class="cue-label" id="cueLabel">DIRECTOR CUE</span>
+            <strong id="cueText"></strong>
+            <span class="cue-marker" aria-hidden="true"></span>
+          </section>
+
+          <section class="edit-detail" aria-labelledby="editLabel">
+            <div class="panel-label" id="editLabel">[ 完整剪辑组合 ]</div>
+            <p id="editText"></p>
+          </section>
+        </section>
+
+        <aside class="source-rail" aria-label="文案结构或镜头来源">
+          <section class="copy-analysis" aria-labelledby="copyAnalysisTitle">
+            <div class="copy-analysis-header">
+              <span id="copyAnalysisTitle">COPY MAP</span>
+              <span class="signal">已拆解</span>
+            </div>
+
+            <div class="copy-analysis-body">
+              <div class="copy-analysis-meta">
+                <span id="analysisChapter">品牌反差</span>
+                <span id="analysisSegment">01 / 21</span>
+              </div>
+
+              <section class="analysis-block structure-block" aria-labelledby="structureLabel">
+                <div class="analysis-label" id="structureLabel">[ 结构骨架 ]</div>
+                <ol class="structure-list" id="structureList"></ol>
+              </section>
+
+              <section class="analysis-block idea-block" aria-labelledby="writingIdeaLabel">
+                <div class="analysis-label" id="writingIdeaLabel">[ 撰写思路 ]</div>
+                <p id="writingIdea"></p>
+              </section>
+            </div>
+
+            <div class="copy-analysis-footer">
+              <span>STRUCTURE NOTES</span>
+              <span>21 SEGMENTS</span>
+            </div>
+          </section>
+
+          <div class="shot-source-view">
+            <div class="source-header">
+              <span>SOURCE FEED</span>
+              <span class="signal" aria-label="来源已载入">LIVE</span>
+            </div>
+
+            <article class="source-card source-card-main">
+              <div class="source-role">A / 主选来源</div>
+              <h2 id="mainSource"></h2>
+              <a id="mainLink" target="_blank" rel="noreferrer">[ 打开原始来源 ]</a>
+              <span class="internal-source" id="mainInternal">[ 公开版：客户素材占位 ]</span>
+            </article>
+
+            <article class="source-card">
+              <div class="source-role">B / 备选来源</div>
+              <h2 id="alternateSource"></h2>
+              <a id="alternateLink" target="_blank" rel="noreferrer">[ 打开原始来源 ]</a>
+              <span class="internal-source" id="alternateInternal">[ 公开版：客户素材占位 ]</span>
+            </article>
+
+            <article class="source-card tertiary-source" id="tertiarySourceCard" hidden>
+              <div class="source-role">C / 补充来源</div>
+              <h2 id="tertiarySource"></h2>
+              <a id="tertiaryLink" target="_blank" rel="noreferrer">[ 打开原始来源 ]</a>
+              <span class="internal-source" id="tertiaryInternal">[ 公开版：客户素材占位 ]</span>
+            </article>
+
+            <dl class="source-meta">
+              <div>
+                <dt>来源性质</dt>
+                <dd id="sourceType"></dd>
+              </div>
+              <div>
+                <dt>风险状态</dt>
+                <dd><span class="risk-chip" id="riskChip"></span></dd>
+              </div>
+            </dl>
+
+            <section class="control-note" aria-labelledby="controlNoteLabel">
+              <div class="panel-label" id="controlNoteLabel">[ 主控备注 ]</div>
+              <p id="controlNote"></p>
+            </section>
+
+            <div class="source-footer">
+              <span>LOCAL ASSETS</span>
+              <span>35 REFERENCES / 11 PLACEHOLDERS</span>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="transport">
+        <button type="button" class="transport-button" id="previousButton">
+          [ &lt; 上一段 ]
+        </button>
+        <div class="timeline" id="timeline" aria-label="全片21段进度"></div>
+        <div class="transport-readout" aria-live="polite">
+          <span id="transportNumber">01 / 21</span>
+          <span id="transportTime">00:00–00:08</span>
+        </div>
+        <button type="button" class="transport-button transport-button-primary" id="nextButton">
+          [ 下一段 &gt; ]
+        </button>
+      </footer>
+    </div>
+
+    <dialog class="overview-dialog" id="overviewDialog">
+      <div class="dialog-titlebar">
+        <strong>[ PROJECT MAP ]</strong>
+        <button type="button" id="closeOverview" aria-label="关闭总览">[ X ]</button>
+      </div>
+      <div class="overview-content">
+        <div class="overview-title">
+          <span>HOKA FLYRUN / 02:08</span>
+          <h2>21段镜头设计总览</h2>
+        </div>
+        <div class="chapter-map" id="chapterMap"></div>
+        <div class="hard-rule">
+          <span class="hard-rule-label">HARD RULE</span>
+          <p id="hardRule"></p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="image-dialog" id="imageDialog">
+      <button type="button" class="image-dialog-close" id="closeImage">[ X ]</button>
+      <img id="dialogImage" alt="镜头大图预览" />
+      <p id="dialogCaption"></p>
+    </dialog>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
