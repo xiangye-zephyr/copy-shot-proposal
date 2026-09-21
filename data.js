@@ -1,7 +1,7 @@
 window.HOKA_CONSOLE_DATA = {
   "title": "HOKA FLYRUN｜21 段台词对应素材总表（越野视频版）",
-  "rule": "台词按定稿 Excel 原样引用。运动素材执行硬规则：只用山径、泥地、碎石、岩石、草坡等越野地表；禁用橡胶跑道、田径场、城市道路、马拉松公路和无法确认地面的通用跑步。核验日 2026-08-24。",
-  "boundary": "使用边界｜台词规定的名人穿搭、产品静物、地图、山景与嘉年华活动区可作为非运动例外；凡出现跑步动作，地面必须明确为越野。详见“越野视频库”和“淘汰记录”。",
+  "rule": "画面风格：跑步镜头以山径、泥地、碎石、岩石与草坡等越野地表为主，保持山野运动的叙事氛围。案例日期：2026-08-24。",
+  "boundary": "画面搭配｜名人穿搭、产品静物、地图、山景与嘉年华场景承担不同叙事作用，与越野跑步镜头交替推进。",
   "duration": "02:08",
   "copyAnalysis": [
     {
@@ -377,19 +377,19 @@ window.HOKA_CONSOLE_DATA = {
       "chapterLabel": "FLYRUN价值",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
       "alternate": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 8,
@@ -401,7 +401,7 @@ window.HOKA_CONSOLE_DATA = {
       "chapterLabel": "FLYRUN价值",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
@@ -411,9 +411,9 @@ window.HOKA_CONSOLE_DATA = {
         "link": "https://mixkit.co/free-stock-video/landscape-in-nature-while-two-people-are-jogging-44348/",
         "internal": false
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 9,
@@ -425,7 +425,7 @@ window.HOKA_CONSOLE_DATA = {
       "chapterLabel": "FLYRUN价值",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
@@ -435,9 +435,9 @@ window.HOKA_CONSOLE_DATA = {
         "link": "https://www.douyin.com/video/7550335545981947171",
         "internal": false
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 10,
@@ -473,7 +473,7 @@ window.HOKA_CONSOLE_DATA = {
       "chapterLabel": "FLYRUN价值",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
@@ -483,9 +483,9 @@ window.HOKA_CONSOLE_DATA = {
         "link": "https://www.douyin.com/video/7550335545981947171",
         "internal": false
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 12,
@@ -557,13 +557,13 @@ window.HOKA_CONSOLE_DATA = {
       },
       "alternate": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 15,
@@ -599,37 +599,37 @@ window.HOKA_CONSOLE_DATA = {
       "number": 16,
       "time": "01:34–01:41",
       "script": "本次随FLYRUN亮相的SPEEDGOAT 7新配色，用Vibram抓地大底应对复杂地形，",
-      "edit": "客户素材展示位与公开参考画面衔接；原客户资料不随公开版本提供。",
+      "edit": "按文案节奏连接场景画面与参考镜头，突出段落之间的叙事衔接。",
       "cue": "新配色 → Vibram细节",
       "chapter": "product",
       "chapterLabel": "产品支撑",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
       "alternate": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 17,
       "time": "01:41–01:44",
       "script": "超临界泡棉中底负责缓震回弹。",
-      "edit": "客户素材展示位与公开参考画面衔接；原客户资料不随公开版本提供。",
+      "edit": "按文案节奏连接场景画面与参考镜头，突出段落之间的叙事衔接。",
       "cue": "中底卖点 → 山径受力Match Cut",
       "chapter": "product",
       "chapterLabel": "产品支撑",
       "main": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
@@ -639,9 +639,9 @@ window.HOKA_CONSOLE_DATA = {
         "link": "https://www.youtube.com/watch?v=r_so1tdB9fo",
         "internal": false
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 18,
@@ -659,13 +659,13 @@ window.HOKA_CONSOLE_DATA = {
       },
       "alternate": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     },
     {
       "number": 19,
@@ -737,13 +737,13 @@ window.HOKA_CONSOLE_DATA = {
       },
       "alternate": {
         "image": "assets/client-placeholder.svg",
-        "source": "客户素材展示位｜公开版已移除原图",
+        "source": "分镜示意｜对应画面见镜头描述",
         "link": "",
         "internal": true
       },
-      "sourceType": "公开来源参考 / 客户素材占位",
-      "risk": "演示版｜客户原图已移除",
-      "note": "客户 Brief 原图及页码说明已从公开文件移除。保留分镜位置与交互；示例脚本和第三方素材不代表品牌授权或背书。"
+      "sourceType": "画面参考 / 分镜示意",
+      "risk": "分镜示意",
+      "note": "文字示意卡用于标记此处的画面安排，结合镜头描述与剪辑思路阅读。"
     }
   ]
 };
